@@ -1,0 +1,4 @@
+Restaurant Name: Chipotle Mexican Grill
+Type Of Food: Mexican
+Address: 997 W Patrick Street Frederick MD
+Phone Number: (301) 698-8140

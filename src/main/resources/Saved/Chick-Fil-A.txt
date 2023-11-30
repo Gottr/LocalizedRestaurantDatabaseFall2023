@@ -1,0 +1,4 @@
+Restaurant Name: Chick-Fil-A
+Type Of Food: Chicken
+Address: 2401 Monocacy Blvd
+Phone Number: 240 529 1400

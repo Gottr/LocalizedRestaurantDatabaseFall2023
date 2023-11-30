@@ -1,0 +1,4 @@
+Restaurant Name: Rasco's NY Pizza
+Type Of Food: Italian
+Address: 20 Town Sq #120, Lovettsville, VA
+Phone Number: (540) 668-5808

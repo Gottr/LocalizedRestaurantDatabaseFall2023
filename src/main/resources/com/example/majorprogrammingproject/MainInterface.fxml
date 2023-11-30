@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.majorprogrammingproject.MainInterfaceController">
+   <children>
+      <ButtonBar layoutX="9.0" layoutY="41.0" prefHeight="40.0" prefWidth="582.0">
+        <buttons>
+            <TextField fx:id="name" promptText="Restaurant Name" />
+            <TextField fx:id="typeOfFood" promptText="Type of Food" />
+            <TextField fx:id="address" promptText="Address" />
+            <TextField fx:id="phoneNumber" promptText="Phone Number" />
+          <Button mnemonicParsing="false" onAction="#EnterInformation" text="Enter" />
+        </buttons>
+      </ButtonBar>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#UnhidePath" text="Edit Path" />
+      <TextField fx:id="pathTextField" layoutX="78.0" layoutY="14.0" prefHeight="25.0" prefWidth="187.0" promptText="./src/main/resources/Saved/" visible="false" />
+      <Button layoutX="513.0" layoutY="14.0" mnemonicParsing="false" onAction="#SearchForCuisine" text="Search" />
+      <TextField fx:id="searchTextField" layoutX="397.0" layoutY="14.0" prefHeight="25.0" prefWidth="105.0" promptText="Search" />
+      <Button layoutX="284.0" layoutY="14.0" mnemonicParsing="false" onAction="#GetLastCreatedFile" text="Last Registered" />
+   </children>
+</AnchorPane>
