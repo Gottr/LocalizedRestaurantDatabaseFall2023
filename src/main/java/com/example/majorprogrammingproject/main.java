@@ -31,7 +31,13 @@ public class main extends Application {
         stage.setResizable(false);
         stage.show();
         FileEditor.CreateArrayOfTextFiles();
-    }
+
+        int n = 8;
+        for (int i = 0; i < n; i++) {
+            Thread thread = new Thread(new Multithread());
+            thread.start();
+        }
+        }
 
     public static void addToStack(String[] restaurantInformation) {
         restaurantStack.push(Restaurant.CreateRestaurant(restaurantInformation));
