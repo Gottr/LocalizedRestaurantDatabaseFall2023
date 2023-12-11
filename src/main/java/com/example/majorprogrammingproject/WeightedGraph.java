@@ -17,6 +17,6 @@ public class WeightedGraph {
 
     public void addEdge(int source, int destination, int weight) {
         WeightedGraphEdge edge = new WeightedGraphEdge(source, destination, weight);
-        adjacentList[source].addFirst(edge);
+        //adjacentList[source].addFirst(edge);
     }
 }
